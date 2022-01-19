@@ -30,7 +30,7 @@ def main():
         print(sql)
         cursor.execute(sql)
     
-    con.commit()
+    con.commit() #update, delete, insert에서 필수
     cursor.close()
     con.close()
 
